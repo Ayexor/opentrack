@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="nl_NL">
+<context>
+    <name>UICFTControls</name>
+    <message>
+        <source>Advanced</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>ESYNC</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>FSYNC</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When supported.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Protocol</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Freetrack</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>NPClient</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Both</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wine Settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>WINE/Proton Controls</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>WINE</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>(or Proton with manual paths)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Prefix</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The path to the WINE prefix used by the application, i.e. the folder containing the &amp;quot;drive_c&amp;quot; folder&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Runtime</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The path the WINE/Proton runtime binary folder used by the application that contains the wine binary, i.e. /bin/wine.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Proton</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>WINE Wrapper</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>proton</name>
+    <message>
+        <source>Wine/Proton prefix must be an absolute path (given &apos;%1&apos;)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Wine/Proton runtime must be an absolute path (given &apos;%1&apos;)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No WINE binary found at &apos;%1&apos;. Please pick another folder.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Target &apos;%1&apos; is a folder, not a binary. Please pick another folder.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No app ID specified for Proton (Steam Play), please select one from the configuration dialog.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No WINE/Proton prefix path set. Please check Opentrack&apos;s settings.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>No WINE/Proton runtime path set. Please check Opentrack&apos;s settings.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Failed to start Wine! Make sure the binary is set correctly.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Can&apos;t open shared memory mapping</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>proton_metadata</name>
+    <message>
+        <source>Proton -- Steam layer for Unix</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>X-Plane</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+</TS>
