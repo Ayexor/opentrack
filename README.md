@@ -1,3 +1,11 @@
+## About this fork
+A new protocol ```proto-proton``` is included.
+It is a slightly modified version of [JT8D-17](https://github.com/JT8D-17/opentrack)'s ```proto-wine``` implementation.
+
+In this plugin, your steam games are automatically detected from all steam libraries.
+The plugin selects the proton version and prefix according to the steam setting. 
+Just select your game in a drop-down menu and you are done with the configuration.
+
 ## Intro
 
 [<img src="https://github.com/opentrack/opentrack/actions/workflows/cmake.yml/badge.svg">](https://github.com/opentrack/opentrack/actions/workflows/cmake.yml)
