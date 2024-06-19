@@ -59,6 +59,15 @@ function(otr_qt2 n)
         -DQT_NO_NARROWING_CONVERSIONS_IN_CONNECT
         -DQT_MESSAGELOGCONTEXT
     )
+    # Disable debug and info output in release
+    string(TOLOWER ${CMAKE_BUILD_TYPE} build_type)
+    if (build_type STREQUAL release)
+        target_compile_definitions("${n}" PUBLIC
+            QT_NO_DEBUG_OUTPUT
+            QT_NO_INFO_OUTPUT
+            #QT_NO_WARNING_OUTPUT
+            )
+    endif()
     if(CMAKE_COMPILER_IS_GNUCXX)
         set_property(SOURCE ${${n}-moc} ${${n}-rcc}
                      APPEND_STRING PROPERTY COMPILE_FLAGS " -w -Wno-error ")
